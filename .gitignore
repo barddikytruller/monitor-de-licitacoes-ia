@@ -1,0 +1,18 @@
+# Dependências
+node_modules/
+
+# Arquivos de log
+*.log
+npm-debug.log*
+
+# Arquivos de ambiente com senhas e chaves
+.env
+
+
+debug_output.html
+petronect_erro.png
+petronect_sucesso.png
+
+
+.DS_Store
+Thumbs.db

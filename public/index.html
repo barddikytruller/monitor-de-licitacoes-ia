@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor de Licitações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <header>
+            <h2>Monitor de Licitações Inteligente</h2>
+        </header>
+        <main>
+            <div class="card card-monitor">
+                <h3>Monitoramento Automático Ativo</h3>
+                <p id="monitoramento-atual">Carregando filtro atual...</p>
+            </div>
+
+            <div class="card">
+                <h3>Busca e Configuração</h3>
+                <div class="search-form">
+                    <input type="text" id="filtro-input" placeholder="Digite sua busca (ex: serviços de TI no Rio de Janeiro)">
+                    <div class="button-group">
+                        <button id="buscar-btn">Buscar Agora</button>
+                        <button id="salvar-monitoramento-btn" class="btn-secondary">Salvar para Monitorar</button>
+                    </div>
+                </div>
+                <div class="toggle-container">
+                    <label class="switch">
+                        <input type="checkbox" id="ai-toggle" checked>
+                        <span class="slider round"></span>
+                    </label>
+                    <label for="ai-toggle" class="toggle-label">Usar Busca por IA (consome cota)</label>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Resultados da Busca Atual</h3>
+                <div id="status-busca">Aguardando sua busca...</div>
+                <ul id="lista-resultados"></ul>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

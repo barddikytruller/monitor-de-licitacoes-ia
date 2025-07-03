@@ -1,0 +1,8 @@
+{
+  "pedidoOriginal": "serviços no rj",
+  "filtros": {
+    "objeto": "serviços",
+    "uf": "RJ",
+    "tipo": "servico"
+  }
+}
